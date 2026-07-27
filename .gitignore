@@ -1,0 +1,12 @@
+# Secrets — never commit these
+credentials.json
+client_secret*.json
+token.json
+.env
+
+# Build output and dependencies
+dist/
+node_modules/
+
+# OS noise
+.DS_Store

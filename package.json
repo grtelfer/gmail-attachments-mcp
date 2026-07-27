@@ -1,0 +1,43 @@
+{
+  "name": "gmail-attachments-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "gmail-attachments-mcp": "dist/index.js"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "SETUP-GOOGLE-CLOUD.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "auth": "node ./dist/index.js auth",
+    "build": "tsc",
+    "dev": "tsx src/index.ts"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "gmail",
+    "attachments",
+    "claude",
+    "claude-code"
+  ],
+  "license": "MIT",
+  "description": "MCP server for downloading Gmail attachments and creating Gmail drafts with file attachments",
+  "dependencies": {
+    "fastmcp": "^3.24.0",
+    "google-auth-library": "^10.5.0",
+    "googleapis": "^171.4.0",
+    "nodemailer": "^6.9.16",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.1",
+    "@types/nodemailer": "^6.4.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.3"
+  }
+}
