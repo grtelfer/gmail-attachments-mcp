@@ -37,7 +37,7 @@ tool re-resolves the id internally.
 Requires Node.js 18 or later.
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/gmail-attachments-mcp.git
+git clone https://github.com/grtelfer/gmail-attachments-mcp.git
 cd gmail-attachments-mcp
 ./install.sh
 ```
